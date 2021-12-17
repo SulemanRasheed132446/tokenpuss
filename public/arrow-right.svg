@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 21" width="28" height="21">
+	<title>Arrow</title>
+	<defs>
+		<image  width="28" height="21" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAVCAMAAABi3H5uAAAAAXNSR0IB2cksfwAAAIFQTFRF/////zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXSXAtR/wAAACt0Uk5TAACQA/+uCcgV3CXsO/dV/XOUsQvJF7nFE6sIjAL8bPRP6DbYIcISqAeIAdAzErgAAAB3SURBVHicfdJHEsJADETRGfzBJjqSoyPh/gdkQ5nCRau3byGVWs79xPtR4Pu4ITKeGEgY9egHAaYzA5kvPsi/LFcGEicGQhoYSJYbSLE2kI2B253G/UHPPJ7ktueLPB/Xm2oFykpWRt3oPttOl31/6E94vr7LvQG7EAha1jQKQQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Arrow" href="#img1" x="0" y="0" />
+</svg>

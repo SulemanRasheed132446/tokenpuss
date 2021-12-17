@@ -1,0 +1,15 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 232 28" width="232" height="28">
+	<title>Arrow copy</title>
+	<defs>
+		<image  width="21" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAcCAMAAAC5xgRsAAAAAXNSR0IB2cksfwAAAH5QTFRF/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXS/zXSXxN4IQAAACp0Uk5TABe5EwvJ/8UIA7GrApSMc2xV/fxPO/f0NiXs6CEV3NgSCcjCB66oAZCIgAuy1gAAAGxJREFUeJztzrkSgkAURNEnSqPsgrLvKsr//6BOjVOzEJJywxN0NZHoYB1p1cmGczbx4gLwfEMDsEIdI/BiFa/JX9ObxHsGUV4ILCvI6oZj20GtHxiOE/Qez9/RF8zmN31WCCx8WoL6d9ft+gWyagmjLv4XnQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.t0 { font-size: 18px;line-height: 36px;fill: #000000;font-weight: 700;font-family: "Roboto-Bold", "Roboto" } 
+	</style>
+	<text id="BACK TO TOP" style="transform: matrix(1.725,0,0,1.725,-9.955,4.436)" >
+		<tspan x="26.6" y="12.8" class="t0" dx="0" >B</tspan><tspan  y="12.8" class="t0" dx="0 0 0 0 0 0 0 0 0 0 0" >ACK TO TOP
+</tspan>
+	</text>
+	<use id="Arrow copy" href="#img1" x="0" y="0" />
+</svg>
