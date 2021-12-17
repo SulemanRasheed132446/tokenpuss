@@ -411,7 +411,7 @@ export default function Home() {
               <h1>Supported by:</h1>
               <div className="supporters-container">
                 <div className="supporter">
-                  <a href="https://www.instagram.com/lilpump/">
+                  <a href="https://www.instagram.com/lilpump/" target="_blank">
                     <img src="/lilPump.svg" />
                   </a>
                   <div className="supporter-name">
@@ -424,7 +424,10 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="supporter">
-                  <a href="https://www.instagram.com/michael8easley/">
+                  <a
+                    href="https://www.instagram.com/michael8easley/"
+                    target="_blank"
+                  >
                     <img src="/micheal.svg" />
                   </a>
                   <div className="supporter-name">
@@ -437,7 +440,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="supporter">
-                  <a href="https://www.instagram.com/shadmoss/">
+                  <a href="https://www.instagram.com/shadmoss/" target="_blank">
                     <img src="/bow.svg" />
                   </a>
 
@@ -451,7 +454,10 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="supporter">
-                  <a href="https://www.instagram.com/chanteljeffries/">
+                  <a
+                    href="https://www.instagram.com/chanteljeffries/"
+                    target="_blank"
+                  >
                     <img src="/charlie.svg" />
                   </a>
                   <div className="supporter-name">
@@ -474,20 +480,35 @@ export default function Home() {
                   <h2>NYC Times Square</h2>
                 </div>
                 <div className="news">
-                  <a href="https://cointelegraph.com/news/project-builds-nft-ecosystem-and-game-to-raise-awareness-of-platypus-extinction">
+                  <a
+                    href="https://cointelegraph.com/news/project-builds-nft-ecosystem-and-game-to-raise-awareness-of-platypus-extinction"
+                    target="_blank"
+                  >
                     <img src="/CoinTelegraph.svg" />
                   </a>
 
-                  <a href="https://www.globestats.com/tokenpuss-the-most-anticipated-public-sale-approaches/">
+                  <a
+                    href="https://www.globestats.com/tokenpuss-the-most-anticipated-public-sale-approaches/"
+                    target="_blank"
+                  >
                     <img src="/GS.svg" />
                   </a>
-                  <a href="https://www.openthenews.com/tokenpuss-the-next-biggest-nft-launch-to-end-the-year/">
+                  <a
+                    href="https://www.openthenews.com/tokenpuss-the-next-biggest-nft-launch-to-end-the-year/"
+                    target="_blank"
+                  >
                     <img src="/OpenNews.svg" />
                   </a>
-                  <a href="https://www.ustimesnow.com/tokenpuss-the-nft-project-making-a-massive-difference-to-the-real-world/">
+                  <a
+                    href="https://www.ustimesnow.com/tokenpuss-the-nft-project-making-a-massive-difference-to-the-real-world/"
+                    target="_blank"
+                  >
                     <img src="/Times Now.svg" />
                   </a>
-                  <a href="https://ventsmagazine.com/2021/12/09/tokenpuss-an-nft-collection-with-a-sacred-mission/">
+                  <a
+                    href="https://ventsmagazine.com/2021/12/09/tokenpuss-an-nft-collection-with-a-sacred-mission/"
+                    target="_blank"
+                  >
                     <img src="/Vents.svg" />
                   </a>
                 </div>
@@ -651,11 +672,16 @@ export default function Home() {
             Metamask/Coinbase Web Extension.
           </p>
           <p className="mint-point">
-            2 - Download/Open : MetaMask Wallet - https://metamask.io/
+            2 - Download/Open : MetaMask Wallet -{" "}
+            <a href="https://metamask.io/" target="_blank">
+              https://metamask.io/
+            </a>
           </p>
           <p className="mint-point">
             3 - Download/Open : Coinbase Wallet -
-            https://www.coinbase.com/wallet
+            <a href="https://www.coinbase.com/wallet" target="_blank">
+              https://www.coinbase.com/wallet
+            </a>
           </p>
           <p className="mint-point">
             4 - Enter www.tokenpuss.com into MetaMask/Coinbase app browser
@@ -664,20 +690,20 @@ export default function Home() {
           <p className="mint-point">5 - Top Ethereum in your wallet</p>
           <div className="tutorial-section">
             <p className="mint-point">
-              <span>Metamask app tutorial</span>{" "}
-              <a href="https://youtu.be/isdvpVZYFqs">
+              <a href="https://youtu.be/isdvpVZYFqs" target="_blank">
+                <span>Metamask app tutorial</span>{" "}
                 <img src="/Metamask Logo.png" />
               </a>
             </p>
             <p className="mint-point">
-              <span>Coinbase wallet app tutorial </span>
-              <a href="https://youtu.be/TiOI4hh01iw">
+              <a href="https://youtu.be/TiOI4hh01iw" target="_blank">
+                <span>Coinbase wallet app tutorial </span>
                 <img src="/coinbase.jpeg" />
               </a>
             </p>
             <p className="mint-point">
-              <span>How to top up wallet with Ethereum tutorial</span>
-              <a href="https://youtu.be/FMTYAMPQzSk">
+              <a href="https://youtu.be/FMTYAMPQzSk" target="_blank">
+                <span>How to top up wallet with Ethereum tutorial</span>
                 <img alt="eth-small" src={"/eth-small.png"} />
               </a>
             </p>
@@ -688,10 +714,16 @@ export default function Home() {
             Extension.
           </p>
           <p className="mint-point">
-            Download/Open : MetaMask Wallet - https://metamask.io/
+            Download/Open : MetaMask Wallet -
+            <a href="https://metamask.io/" target="_blank">
+              https://metamask.io/
+            </a>
           </p>
           <p className="mint-point">
-            Download/Open : Coinbase Wallet - https://www.coinbase.com/wallet
+            Download/Open : Coinbase Wallet -
+            <a href="https://www.coinbase.com/wallet" target="_blank">
+              https://www.coinbase.com/wallet
+            </a>
           </p>
           <p className="mint-point">
             2 - Enter www.tokenpuss.com into MetaMask/Coinbase app browser
