@@ -411,6 +411,26 @@ export default function Home() {
               <h1>Supported by:</h1>
               <div className="supporters-container">
                 <div className="supporter">
+                  <a
+                    href="https://www.instagram.com/jasonderulo/"
+                    target="_blank"
+                  >
+                    <div className="supporter-image">
+                      <img src="/jason.svg" />
+                      <img src="/jason-nft.svg" className="supporter-nft" />
+                    </div>
+                  </a>
+                  <div className="supporter-name">
+                    <h4>Jason Derulo</h4>
+                    <img src="/verified.png" />
+                  </div>
+                  <div className="supporter-detail">
+                    <img src="/insta-logo.png" />
+                    <h5>8.6 M</h5>
+                  </div>
+                </div>
+
+                <div className="supporter">
                   <a href="https://www.instagram.com/lilpump/" target="_blank">
                     <img src="/lilPump.svg" />
                   </a>
@@ -458,7 +478,7 @@ export default function Home() {
                     href="https://www.instagram.com/chanteljeffries/"
                     target="_blank"
                   >
-                    <img src="/charlie.svg" />
+                    <img src="/chantel.svg" />
                   </a>
                   <div className="supporter-name">
                     <h4>Chantel Jeffries</h4>
@@ -467,6 +487,50 @@ export default function Home() {
                   <div className="supporter-detail">
                     <img src="/insta-logo.png" />
                     <h5>4.7 M</h5>
+                  </div>
+                </div>
+
+                <div className="supporter">
+                  <a
+                    href="https://www.youtube.com/watch?v=2uF2-LrP_CA&t=37s"
+                    target="_blank"
+                  >
+                    <img src="/Michael.svg" />
+                  </a>
+                  <div className="supporter-name">
+                    <h4>Michael Wrubel</h4>
+                    <img src="/youtube.svg" className="supporter-icon" />
+                  </div>
+                  <div className="supporter-youtuber">
+                    <h5>306k subscriber</h5>
+                    <a
+                      href="https://www.youtube.com/watch?v=2uF2-LrP_CA&t=37s"
+                      target="_blank"
+                    >
+                      <img src="/youtube-logo.svg" />
+                    </a>
+                  </div>
+                </div>
+
+                <div className="supporter">
+                  <a
+                    href="https://www.youtube.com/watch?v=plolfpjQpz0&t=1s"
+                    target="_blank"
+                  >
+                    <img src="/Goalorious.svg" />
+                  </a>
+                  <div className="supporter-name">
+                    <h4>Goalorious</h4>
+                    <img src="/youtube.svg" className="supporter-icon" />
+                  </div>
+                  <div className="supporter-youtuber">
+                    <h5>43.9k subscribers</h5>
+                    <a
+                      href="https://www.youtube.com/watch?v=plolfpjQpz0&t=1s"
+                      target="_blank"
+                    >
+                      <img src="/youtube-logo.svg" />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -535,8 +599,8 @@ export default function Home() {
                 <h3>GET YOUR TOKENPUSS NOW</h3>
                 <h1>MINT Tokenpuss NFT</h1>
                 <p>
-                  Buy the new super rare piece of digital art and make your own
-                  collection more valuable!
+                  Own the new super rare piece of digital art and make your own
+                  collection more valuable! 30% left remaining
                 </p>
                 <button className="mint-btn" onClick={mint_nft}>
                   <img alt="catmin" src={"/Cart-min.png"} />
@@ -733,7 +797,7 @@ export default function Home() {
           <div className="tutorial-section">
             <p className="mint-point">Ready to mint</p>
           </div>
-          <a href="#top" class="top-link">
+          <a href="#top" className="top-link">
             <img src="/arrow-up.svg" />
             <div>BACK TO TOP</div>
           </a>

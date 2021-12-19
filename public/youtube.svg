@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 13" width="18" height="13">
+	<title>SUPPORTED BY</title>
+	<defs>
+		<image  width="18" height="13" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAANCAMAAACTkM4rAAAAAXNSR0IB2cksfwAAAORQTFRF9b29/Gho/VFR/iMj/jIy/E1N/jQ0/iws/iYm/iUl/igo/i0t/TY2/UlJ/FFR/js7/V9f+Y2N+Y2N/wgI/wAA/FNT/jU1/wwM/iws/wUF/wAA/iAg/39//3Z2/wQE/wAA/wQE/5KS/////8rK/01N/wMD/wAA/42N/5ub/wEB/46O/+/v/4OD/x8f/hUV/5GR/6qq/yEh/jIy/xkZ/wAA/jk5/gYG/X9//wIC/zc3/sXF/mtr/iQk/SUl/h8f/hcX/g8P/wsL/wYG/g0N/hwc/gkJ/wcH/hoa/iws/iIi/EpK/q2tTsiXsAAAAEx0Uk5TACVheomcp6yvr66rpp2ScjgAMe//e4DlsP/v0f///+3k///////o///n/////9j////A/+6M5T3/ogBIm8HIy87P0NTY09DKv6l2ET7JL9YAAACFSURBVHicY2BgZGJmYWVj5+Dk4ubh5eMXEGQQEhZBBaIMYmgiIuIMEhCGJFxIikEawpCRlYMKyTMoQBiKSsoqqlAhNYiQupKSkoYcREgTIqSlpK2jC1WlBxHSNzCEm2UEYRjDbTRhMEV3lxmDuQWakCWDlbWNrZ29g6OTs4urm7uHp5c3AFuBF+lbIuXJAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="SUPPORTED BY">
+		<g id="Celebs">
+			<g id="Michael Wrubel">
+				<use id="Layer 18" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>

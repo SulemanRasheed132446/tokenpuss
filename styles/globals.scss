@@ -1868,9 +1868,10 @@ a {
   }
   .supporters-container {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+
     margin: auto;
     @media only screen and (max-width: 600px) {
       justify-content: center;
@@ -1878,6 +1879,7 @@ a {
   }
   .supporter {
     width: 18%;
+    margin: 1%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1897,6 +1899,9 @@ a {
   .supporter-name {
     display: flex;
     align-items: center;
+    .supporter-icon {
+      margin-left: 0.4rem;
+    }
   }
   .supporter-detail {
     display: flex;
@@ -1978,5 +1983,18 @@ a {
   }
   .mint {
     color: white
+  }
+}
+.supporter-youtuber {
+  h5 {
+    text-align: center;
+  }
+}
+.supporter-image {
+  position: relative;
+  .supporter-nft {
+    position: absolute;
+    bottom: 0;
+    left: -10%;
   }
 }
