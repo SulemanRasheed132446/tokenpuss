@@ -512,28 +512,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="supporter">
-                  <a
-                    href="https://www.youtube.com/watch?v=plolfpjQpz0&t=1s"
-                    target="_blank"
-                  >
-                    <img src="/Goalorious.svg" />
-                  </a>
-                  <div className="supporter-name">
-                    <h4>Goalorious</h4>
-                    <img src="/youtube.svg" className="supporter-icon" />
-                  </div>
-                  <div className="supporter-youtuber">
-                    <h5>43.9k subscribers</h5>
-                    <a
-                      href="https://www.youtube.com/watch?v=plolfpjQpz0&t=1s"
-                      target="_blank"
-                    >
-                      <img src="/youtube-logo.svg" />
-                    </a>
-                  </div>
-                </div>
-              </div>
+               </div>
             </div>
 
             <div className="featured-container">
