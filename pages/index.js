@@ -511,8 +511,7 @@ export default function Home() {
                     </a>
                   </div>
                 </div>
-
-               </div>
+              </div>
             </div>
 
             <div className="featured-container">
@@ -791,21 +790,38 @@ export default function Home() {
                   1. Every 10th of the first 100 owners is getting an airdrop
                   plus weekly giveaways to followers
                   <br />
-                  2. Every 500, 1000, 2000, 3000, 4000, 5000th owner is getting
-                  a unique piece of merch
+                  2. 25% sold – AMA with a team
                   <br />
-                  3. 25% sold – AMA with a team
+                  3. 50% sold – special giveaway of $2000 worth of ETH
                   <br />
-                  4. 50% sold – special giveaway!
+                  4. Advertising and backing up project with:
                   <br />
-                  5. 100% sold - we’re opening a merch shop and giving away
-                  $10,000 worth of ETH to a lucky minter with a specific Token.
-                </p>
-                <p className="p_3">
-                  Every month we’re donating 10% from profits towards Australian
-                  wild life conservation for preserving the Platypus species
-                  from extinction.We promise to keep you updated and your
-                  investment in our project can go a long way!
+                  - Articles in Cointelegraph, Globestats, OpenNews, US Times
+                  Now, Vents Magazine
+                  <br /> -IG posts on following pages: @millionaire_mentor
+                  (8.2M), @nft.newsglobal (274k), @altcoindaily (432k),
+                  @cryptomaniaks (849k), @cryptoding (195k), @cryptofindsnft
+                  (291k), @sharecrypto (347k), @cryptoexplorer (595k),
+                  @cryptopress (75.3k) and other pages
+                  <br />- Twitter advertising with @Crypto_Hawk (401k),
+                  @jimipapifn (178k), @0xSummy (2.3M) and other pages
+                  <br />- Celebrities, who backed up the project: Jason Derulo,
+                  Chantel Jeffries, Lil Pump, Bow Wow, Michael Beasley
+                  <br />- YouTube videos with: Michael Wrubel (306k), Rico
+                  Copeland (64.5k), CryptoScape (1.8k) - Telegram advertising
+                  <br />
+                  5. Listing the project on Rarity Sniper
+                  https://raritysniper.com/tokenpuss
+                  <br />
+                  6. Adopt 2 Platypuses under Tokenpuss name
+                  <br />
+                  7. Introduce staking to HODLers
+                  <br />
+                  8. Every 500, 1000, 2000, 3000, 4000, 5000th owner is getting
+                  a unique piece of merch.
+                  <br />
+                  9. 100% sold - we’re giving away $10,000 worth of ETH to a
+                  lucky minter with a specific Token.
                 </p>
               </div>
             </div>
@@ -814,18 +830,38 @@ export default function Home() {
               <div></div>
               <div className="row2-wrap">
                 <h3>
-                  STAGE 2: INTEGRATING TOKENPUSS INTO THE REAL WORLD. GROWING
-                  THE VALUE OF THE PROJECT
+                  STAGE 2: INTEGRATING TOKENPUSS IN THE REAL WORLD. GROWING THE
+                  REAL VALUE
                 </h3>
                 <p>
-                  1. Creating a mobile game with Aussie Adrenaline Game Studios
-                  based on the Tokenpuss character. Huge perks for token owners.
-                  Coming soon!
+                  1. Raise the floor price by marketing and advertising the
+                  project on: - @millionaire_mentor (8.2M), @ nft.newsglobal
+                  (274k), @cryptomaniaks (849k)
                   <br />
-                  2. We’re proud to create a unique project with a massive
-                  integration of charity, wild life and the crypto world
-                  altogether. With our project, we want to take the first step
-                  in this direction and support the Platypus species.
+                  2. Working with NFT and crypto YouTubers to raise the
+                  awareness about the Tokenpuss project
+                  <br />
+                  3. Another run with PR on websites like Yahoo Finance and
+                  others
+                  <br />
+                  4. Q1 2022:
+                  <br />
+                  Start of the Tokenpuss Meta Gallery <br />- Developing the
+                  concept of the gallery and reward opportunities for Tokenpuss
+                  NFT holders <br />- Working on physics and design of the
+                  Tokenpuss Meta Gallery <br />- Developing marketing campaign
+                  for the gallery <br />- Beta-testing only for Tokenpuss NFT
+                  members
+                  <br />
+                  5. Q2 2022: <br />- Introducing the official rewards for
+                  Tokenpuss NFT holders <br />- Release of Tokenpuss Meta
+                  Gallery on Oculus Quest and app-stores <br />- Raising the
+                  awareness of the project through marketing
+                  <br />
+                  6. Q3 and Q4 2022: <br />- Full promotion of Tokenpuss Meta
+                  Gallery
+                  <br />- Possible game development when the trading volume and
+                  the demand of the project will increase
                 </p>
               </div>
             </div>
