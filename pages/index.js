@@ -1,6 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+
 import React from "react";
 import { useEffect, useState } from "react";
 import Question from "../components/FAQ";
@@ -578,7 +577,7 @@ export default function Home() {
                 <h1>MINT Tokenpuss NFT</h1>
                 <p>
                   Own the new super rare piece of digital art and make your own
-                  collection more valuable! 30% left remaining
+                  collection more valuable! 10% left remaining
                 </p>
                 <button className="mint-btn" onClick={mint_nft}>
                   <img alt="catmin" src={"/Cart-min.png"} />
