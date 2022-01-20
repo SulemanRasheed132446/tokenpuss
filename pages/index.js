@@ -347,6 +347,9 @@ export default function Home() {
 
   return (
     <div className="App">
+      <Head>
+      <meta name="facebook-domain-verification" content="8zyjao2zmtvsriy4sxwkd9rh4egzbu" />
+      </Head>
       <div className="sec1-sec2-wrapper">
         <div className="sec2-wrapper">
           <div className="container sec-2">
