@@ -348,7 +348,10 @@ export default function Home() {
   return (
     <div className="App">
       <Head>
-      <meta name="facebook-domain-verification" content="8zyjao2zmtvsriy4sxwkd9rh4egzbu" />
+        <meta
+          name="facebook-domain-verification"
+          content="8zyjao2zmtvsriy4sxwkd9rh4egzbu"
+        />
       </Head>
       <div className="sec1-sec2-wrapper">
         <div className="sec2-wrapper">
@@ -563,10 +566,7 @@ export default function Home() {
 
         <div className="sec1-wrapper">
           <div className="container sec-1">
-            <a href="#mint" className="top-link">
-              <img src="/arrow-right.svg" />
-              <div className="mint">HOW TO MINT</div>
-            </a>
+            
             <figure className="fig-brand">
               <img
                 className="brand-logo"
@@ -575,37 +575,13 @@ export default function Home() {
               />
             </figure>
             <div className="header-container">
-              <div className="mint-container">
-                <h3>GET YOUR TOKENPUSS NOW</h3>
-                <h1>MINT Tokenpuss NFT</h1>
-                <p>
-                  Own the new super rare piece of digital art and make your own
-                  collection more valuable! 10% left remaining
-                </p>
-                <button className="mint-btn" onClick={mint_nft}>
-                  <img alt="catmin" src={"/Cart-min.png"} />
-                  <span>MINT {value}</span>
+              <h2 className="header__mint-text">MINTED 5555 out of 5555</h2>
+              <a href="https://opensea.io/collection/tokenpuss" target="_blank">
+                <button className="opensea-btn">
+                  BUY ON OPENSEA
+                  <img src="/Opensea.png" className="btn-icon" />
                 </button>
-                <input
-                  id="range"
-                  type="range"
-                  min="1"
-                  max="10"
-                  value={value}
-                  onChange={handlePrice}
-                  step="1"
-                />
-              </div>
-              <div className="mint-detail">
-                <img alt="catmin" src={"/eth-small.png"} />
-                <h1>{eth} </h1>
-                <button onClick={connect_wallet}>{walletText}</button>
-                <div>
-                  <p>Secure payments powered by</p>
-                  <img src="/Metamask Logo.png" />
-                  <img src="/coinbase.jpeg" />
-                </div>
-              </div>
+              </a>
             </div>
 
             {/* <div className="row1">
@@ -705,78 +681,8 @@ export default function Home() {
             question="How can I contact Tokenpuss team"
             answer="If you have any additional questions you can contact us through Discord, Twitter or Instagram"
           />
-          <h1 className="mint-header" id="mint">
-            HOW TO MINT TOKENPUSS NFT
-          </h1>
-          <h3 className="mint-heading">
-            To Mint Tokenpuss NFT using a Cell/Mobile:
-          </h3>
-          <p className="mint-point">
-            1 - Open MetaMask/Coinbase App Browser or PC Browser with
-            Metamask/Coinbase Web Extension.
-          </p>
-          <p className="mint-point">
-            2 - Download/Open : MetaMask Wallet -{" "}
-            <a href="https://metamask.io/" target="_blank">
-              https://metamask.io/
-            </a>
-          </p>
-          <p className="mint-point">
-            3 - Download/Open : Coinbase Wallet -
-            <a href="https://www.coinbase.com/wallet" target="_blank">
-              https://www.coinbase.com/wallet
-            </a>
-          </p>
-          <p className="mint-point">
-            4 - Enter www.tokenpuss.com into MetaMask/Coinbase app browser
-            located within
-          </p>
-          <p className="mint-point">5 - Top Ethereum in your wallet</p>
-          <div className="tutorial-section">
-            <p className="mint-point">
-              <a href="https://youtu.be/isdvpVZYFqs" target="_blank">
-                <span>Metamask app tutorial</span>{" "}
-                <img src="/Metamask Logo.png" />
-              </a>
-            </p>
-            <p className="mint-point">
-              <a href="https://youtu.be/TiOI4hh01iw" target="_blank">
-                <span>Coinbase wallet app tutorial </span>
-                <img src="/coinbase.jpeg" />
-              </a>
-            </p>
-            <p className="mint-point">
-              <a href="https://youtu.be/FMTYAMPQzSk" target="_blank">
-                <span>How to top up wallet with Ethereum tutorial</span>
-                <img alt="eth-small" src={"/eth-small.png"} />
-              </a>
-            </p>
-          </div>
-          <h3 className="mint-heading">To Mint Tokenpuss NFT using PC:</h3>
-          <p className="mint-point">
-            1 - Open MetaMask/Coinbase PC Browser with Metamask/Coinbase Web
-            Extension.
-          </p>
-          <p className="mint-point">
-            Download/Open : MetaMask Wallet -
-            <a href="https://metamask.io/" target="_blank">
-              https://metamask.io/
-            </a>
-          </p>
-          <p className="mint-point">
-            Download/Open : Coinbase Wallet -
-            <a href="https://www.coinbase.com/wallet" target="_blank">
-              https://www.coinbase.com/wallet
-            </a>
-          </p>
-          <p className="mint-point">
-            2 - Enter www.tokenpuss.com into MetaMask/Coinbase app browser
-            located within
-          </p>
-          <p className="mint-point">3 - Top Ethereum in your wallet</p>
-          <div className="tutorial-section">
-            <p className="mint-point">Ready to mint</p>
-          </div>
+         
+          
           <a href="#top" className="top-link">
             <img src="/arrow-up.svg" />
             <div>BACK TO TOP</div>
@@ -789,35 +695,36 @@ export default function Home() {
                 <p className="p_1">ROADMAP</p>
                 <h3 className="h_3">STAGE 1: A STAR IS BORN</h3>
                 <p className="p_2">
-                  1. Every 10th of the first 100 owners is getting an airdrop
+                  <span className="completed-step">1. Every 10th of the first 100 owners is getting an airdrop
                   plus weekly giveaways to followers
+                  </span>
                   <br />
-                  2. 25% sold – AMA with a team
+                  <span className="completed-step">2. 25% sold – AMA with a team</span>
                   <br />
-                  3. 50% sold – special giveaway of $2000 worth of ETH
+                  <span className="completed-step">3. 50% sold – special giveaway of $2000 worth of ETH</span>
                   <br />
-                  4. Advertising and backing up project with:
+                  <span className="completed-step">4. Advertising and backing up project with:</span>
                   <br />
-                  - Articles in Cointelegraph, Globestats, OpenNews, US Times
-                  Now, Vents Magazine
-                  <br /> -IG posts on following pages: @millionaire_mentor
+                  <span className="completed-step">- Articles in Cointelegraph, Globestats, OpenNews, US Times
+                  Now, Vents Magazine</span>
+                  <br /><span className="completed-step"> -IG posts on following pages: @millionaire_mentor
                   (8.2M), @nft.newsglobal (274k), @altcoindaily (432k),
                   @cryptomaniaks (849k), @cryptoding (195k), @cryptofindsnft
                   (291k), @sharecrypto (347k), @cryptoexplorer (595k),
-                  @cryptopress (75.3k) and other pages
-                  <br />- Twitter advertising with @Crypto_Hawk (401k),
-                  @jimipapifn (178k), @0xSummy (2.3M) and other pages
-                  <br />- Celebrities, who backed up the project: Jason Derulo,
-                  Chantel Jeffries, Lil Pump, Bow Wow, Michael Beasley
-                  <br />- YouTube videos with: Michael Wrubel (306k), Rico
-                  Copeland (64.5k), CryptoScape (1.8k) - Telegram advertising
+                  @cryptopress (75.3k) and other pages</span>
+                  <br /><span className="completed-step">- Twitter advertising with @Crypto_Hawk (401k),
+                  @jimipapifn (178k), @0xSummy (2.3M) and other pages</span>
+                  <br /><span className="completed-step">- Celebrities, who backed up the project: Jason Derulo,
+                  Chantel Jeffries, Lil Pump, Bow Wow, Michael Beasley</span>
+                  <br /><span className="completed-step">- YouTube videos with: Michael Wrubel (306k), Rico
+                  Copeland (64.5k), CryptoScape (1.8k) - Telegram advertising</span>
                   <br />
-                  5. Listing the project on Rarity Sniper
-                  https://raritysniper.com/tokenpuss
+                  <span className="completed-step">5. Listing the project on Rarity Sniper
+                  https://raritysniper.com/tokenpuss</span>
                   <br />
-                  6. Adopt 2 Platypuses under Tokenpuss name
+                  <span className="completed-step">6. Adopt 2 Platypuses under Tokenpuss name</span>
                   <br />
-                  7. Introduce staking to HODLers
+                  <span className="completed-step">7. Introduce staking to HODLers</span>
                   <br />
                   8. Every 500, 1000, 2000, 3000, 4000, 5000th owner is getting
                   a unique piece of merch.
@@ -874,10 +781,10 @@ export default function Home() {
                     <img alt="eth54" src={"/Cart-min.png"} />
                     <span>MINT</span>
                   </button> */}
-                <a href="#top">
+                <a href="https://opensea.io/collection/tokenpuss" target="_blank">
                   <button className="mint-btn">
-                    <img alt="eth54" src={"/Cart-min.png"} />
-                    <span>MINT</span>
+                    <span>BUY ON OPENSEA</span>
+                    <img alt="eth54" src={"/Opensea.png"} />
                   </button>
                 </a>
               </div>
